@@ -267,6 +267,12 @@ export default function Home() {
               fullWidth
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  e.preventDefault(); // Prevents the default action of the Enter key (like submitting a form)
+                  sendMessage();
+                }
+              }}
               // sx={{backgroundColor: '#fffefa'}}
               
             />
