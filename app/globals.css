@@ -3,3 +3,8 @@
   padding: 0;
   margin: 0;
 }
+
+/* index.css or App.css */
+body {
+  cursor: url('/white-cursor.png'), auto;
+}
