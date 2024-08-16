@@ -3,7 +3,7 @@ import * as THREE from './three.js-master/build/three.module.js'
 import { Box, Stack, TextField, Button } from '@mui/material'
 import { useEffect, useRef, useState } from 'react'
 import { GLTFLoader } from './three.js-master/examples/jsm/loaders/GLTFLoader.js'
-import { OrbitControls } from './three.js-master/examples/jsm/controls/OrbitControls.js'
+// import { OrbitControls } from './three.js-master/examples/jsm/controls/OrbitControls.js'
 // index.js or App.js
 //import './index.css'; // or './App.css', depending on your setup
 
